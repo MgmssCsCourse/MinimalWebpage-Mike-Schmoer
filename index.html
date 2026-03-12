@@ -10,4 +10,244 @@
 	 <!--es soll ein portal zu sehen sein in dem der kader vom ersten fc saarbruecken aufgelistet ist alle spieler sollen mit name und nummer zu sehen sein die spieler sollen nach position sortiert sein es fängt an mit den torhütern und endet mit dem sturm -->  
 	 
  </body>
-</html> 
+</html>
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCS Kader 2022/23</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #002856;
+            text-align: center;
+            font-size: 32px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #002856;
+            border-bottom: 3px solid #FFCD00;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        .spieler-liste {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .spieler {
+            background-color: #f5f5f5;
+            border-left: 5px solid #002856;
+            padding: 10px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .nummer {
+            background-color: #002856;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .name {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .info {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #FFCD00;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ 1. FC SAARBRÜCKEN ⚽</h1>
+        <h1 style="font-size: 24px; margin-top: -10px;">KADER 2022/23</h1>
+        
+        <!-- TORHÜTER -->
+        <h2>🧤 TORHÜTER</h2>
+        <div class="spieler-liste">
+            <div class="spieler">
+                <span class="nummer">1</span>
+                <span class="name">Tim Paterok</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">13</span>
+                <span class="name">Finn Kotyrba</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">30</span>
+                <span class="name">Tim Schreiber</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">33</span>
+                <span class="name">Felix Göttlicher</span>
+            </div>
+        </div>
+        
+        <!-- ABWEHR -->
+        <h2>🛡️ ABWEHR</h2>
+        <div class="spieler-liste">
+            <div class="spieler">
+                <span class="nummer">2</span>
+                <span class="name">Marcel Gaus</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">4</span>
+                <span class="name">Nils Fischer</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">5</span>
+                <span class="name">Steven Zellner</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">14</span>
+                <span class="name">Boné Uaferro</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">16</span>
+                <span class="name">Bjarne Thoelke</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">17</span>
+                <span class="name">Dominik Becker</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">19</span>
+                <span class="name">Max Machtolf</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">20</span>
+                <span class="name">Julian Günther-Schmidt</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">24</span>
+                <span class="name">Sebastian Jacob</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">25</span>
+                <span class="name">Tobias Jänicke</span>
+            </div>
+        </div>
+        
+        <!-- MITTELFELD -->
+        <h2>🎯 MITTELFELD</h2>
+        <div class="spieler-liste">
+            <div class="spieler">
+                <span class="nummer">6</span>
+                <span class="name">Patrick Sontheimer</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">7</span>
+                <span class="name">Cali Besuschkow</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">8</span>
+                <span class="name">Manuel Zeitz</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">10</span>
+                <span class="name">Kasim Rabihic</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">11</span>
+                <span class="name">Julius Biada</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">15</span>
+                <span class="name">Robin Becker</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">18</span>
+                <span class="name">Andy Iirrl</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">21</span>
+                <span class="name">Tim Civeja</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">22</span>
+                <span class="name">Simon Stehle</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">23</span>
+                <span class="name">Mergim Fejzullahu</span>
+            </div>
+        </div>
+        
+        <!-- STURM -->
+        <h2>⚡ STURM</h2>
+        <div class="spieler-liste">
+            <div class="spieler">
+                <span class="nummer">9</span>
+                <span class="name">Kai Brünker</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">27</span>
+                <span class="name">Lukas Boeder</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">29</span>
+                <span class="name">Muhamed Alawie</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">39</span>
+                <span class="name">Amine Naifi</span>
+            </div>
+            <div class="spieler">
+                <span class="nummer">40</span>
+                <span class="name">Erik Zeitz</span>
+            </div>
+        </div>
+        
+        <div class="info">
+            <p>🏆 DFB-POKAL SAISON 2022/23 🏆</p>
+            <p>1. FC Saarbrücken im Achtelfinale</p>
+        </div>
+        
+        <div class="footer">
+            <p>Erstellt für GitHub - 1. FC Saarbrücken Kader 2022/23</p>
+            <p>🎯 Alle Spieler mit Namen und Nummer - Sortiert nach Positionen</p>
+        </div>
+    </div>
+</body>
+</html>
+```
